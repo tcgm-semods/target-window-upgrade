@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "format": "star-empire-mod",
+    "mod_id": "target-window-upgrade",
+    "name": "Target Window Upgrade",
+    "version": "0.1.0",
+    "author": "wkthedev",
+    "description": "Renders the targeted ship's sprite inside the Target panel, and swaps the panel's right-click / Shift+right-click actions.",
+    "loader_api": 2,
+    "entrypoint": "target_window_upgrade.main:apply",
+    "files": [
+        "mod/target_window_upgrade/README.md",
+        "mod/target_window_upgrade/main.py"
+    ],
+    "dependencies": [],
+    "conflicts": [],
+    "load_after": [],
+    "permissions": []
+}
